@@ -53,7 +53,7 @@ def pred_on_custom_image(image, # input image (preprocessed by Gradio's Image in
   return pred_probs_dict
 
 # Create Gradio interface
-interface_title = "Dog Vision 🐶👁️"
+interface_title = "Dog Breed Classifier"
 interface_description = """
 Identify different dogs in images with deep learning. Model trained with TensorFlow/Keras.
 
