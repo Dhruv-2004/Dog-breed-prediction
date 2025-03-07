@@ -2,7 +2,7 @@ import gradio as gr
 import tensorflow as tf 
 
 # Load model
-model_save_path = "dog_vision_model_demo.keras"
+model_save_path = "dog_vision_model.keras"
 loaded_model_for_demo = tf.keras.models.load_model(model_save_path)
 
 # Load labels
@@ -56,7 +56,9 @@ def pred_on_custom_image(image, # input image (preprocessed by Gradio's Image in
 interface_title = "Dog Vision 🐶👁️"
 interface_description = """
 Identify different dogs in images with deep learning. Model trained with TensorFlow/Keras.
+
 ## Links
+
 * Original dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/ 
 * Code to train model: https://dev.mrdbourke.com/zero-to-mastery-ml/end-to-end-dog-vision-v2/
 """
