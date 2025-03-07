@@ -1,0 +1,23 @@
+# Ignore the virtual environment
+venv/
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore Gradio cache
+gradio_cached_examples/
