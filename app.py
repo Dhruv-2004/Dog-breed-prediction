@@ -60,7 +60,7 @@ Identify different dogs in images with deep learning. Model trained with TensorF
 ## Links
 
 * Original dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/ 
-* Code to train model: https://dev.mrdbourke.com/zero-to-mastery-ml/end-to-end-dog-vision-v2/
+* Code to train model: https://github.com/Dhruv-2004/Dog-breed-prediction
 """
 interface = gr.Interface(fn=pred_on_custom_image,
                          inputs=gr.Image(),
